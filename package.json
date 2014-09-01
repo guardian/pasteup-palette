@@ -1,6 +1,5 @@
 {
   "name": "pasteup-palette",
-  "version": "0.0.1",
   "description": "pasteup-palette",
   "main": "_palette.scss",
   "repository": {
