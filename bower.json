@@ -10,7 +10,7 @@
     "type": "git",
     "url": "http://github.com/guardian/pasteup-palette.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "guss-colours": "~3.0.0"
   }
 }
