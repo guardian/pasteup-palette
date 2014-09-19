@@ -1,0 +1,355 @@
+<!doctype html>
+
+
+
+
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8" />
+
+<title>SassDoc</title>
+<link rel="stylesheet" href="assets/css/main.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width">
+<meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+
+<!-- Thanks to Sass-lang.com for the icons -->
+<link href="http://sass-lang.com/favicon.ico" rel="shortcut icon">
+
+</head>
+<body>
+
+  
+  <aside class="sidebar" role="nav">
+    
+  <div class="sidebar__header">
+  <h1 class="sidebar__title">
+    
+      SassDoc
+    
+  </h1>
+</div>
+
+<div class="sidebar__body">
+  
+  
+
+    
+    
+      <p class="sidebar__item  sidebar__item--heading" data-slug="colours"><a href="#colours">colours</a></p>
+
+      
+      
+        <div>
+
+        
+        
+
+        
+        
+          <p class="sidebar__item  sidebar__item--sub-heading" data-slug="colours-variable"><a href="#colours-variable">variables</a></p>
+
+          
+          
+            <ul class="list-unstyled">
+            <li class="sidebar__item  sassdoc__item" data-name="pasteup-palette" data-type="variable">
+              <a href="#variable-pasteup-palette">pasteup-palette
+              
+              
+              </a>
+            </li>
+            </ul>
+          
+        
+        </div>
+      
+
+    
+  
+</div>
+
+
+  </aside>
+
+  
+  <article class="main" role="main">
+
+    
+    <header class="header" role="banner">
+  <div class="container">
+  
+
+    <div class="sassdoc__searchbar  searchbar">
+       <label for="js-search-input" class="visually-hidden">Search</label>
+       <div class="searchbar__form" id="js-search">
+         <input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search" />
+         <ul class="searchbar__suggestions" id="js-search-suggestions"></ul>
+       </div>
+     </div>
+  </div>
+</header>
+
+
+    <div class="container">
+    
+
+  
+  
+
+    
+    
+      <section class="main__section">
+        <h1 class="main__heading" id="colours">colours</h1>
+
+        
+        
+
+          
+          
+
+          
+          
+            <section class="main__sub-section" id="colours-variable">
+              <h2 class="main__heading--secondary">variables</h2>
+
+              
+              
+                <section class="main__item  item" id="variable-pasteup-palette">
+
+<h3 class="item__heading">
+  
+
+  <a class="item__name" href="#variable-pasteup-palette">pasteup-palette</a>
+
+  
+
+  
+</h3>
+
+
+
+
+
+
+
+
+
+<div class="relative  clear">
+  <pre class="item__code  language-scss"><code>$pasteup-palette: (
+    guardian-brand:         #005689,
+    guardian-brand-light:   #94b1ca,
+    guardian-brand-dark:    #00456e,
+
+    error:                  #d61d00,
+    success:                #4a7801,
+
+    // Neutral palette (desaturized)
+    neutral-1:              #333333,
+    neutral-2:              #767676,
+    neutral-3:              #bdbdbd,
+    neutral-4:              #dcdcdc,
+    neutral-5:              #dfdfdf,
+    neutral-6:              #eaeaea,
+    neutral-7:              #f1f1f1,
+    neutral-8:              #f6f6f6,
+
+    // Neutral palette (warm)
+    neutral-1-warm:         #333333,
+    neutral-2-warm:         #767676,
+    neutral-3-warm:         #bdbdbd,
+    neutral-4-warm:         #dcdcdc,
+    neutral-5-warm:         #e3e3db,
+    neutral-6-warm:         #edede7,
+    neutral-7-warm:         #f4f4ee,
+    neutral-8-warm:         #f6f6f6,
+
+    // News palette
+    news-main-1:            #005689,
+    news-main-2:            #4bc6df,
+    news-support-1:         #aad8f1,
+    news-support-2:         #197caa,
+    news-support-3:         #69d1ca,
+    news-support-4:         #66a998,
+    news-support-5:         #aad801,
+
+    // Features palette
+    features-main-1:        #7d0068,
+    features-main-2:        #b82266,
+    features-support-1:     #951c55,
+    features-support-2:     #4e0375,
+    features-support-3:     #fdadba,
+
+    // Comment palette
+    comment-main-1:         #c05303,
+    comment-main-2:         #ff9b0b,
+    comment-support-1:      #83705e,
+    comment-support-2:      #e3e3db,
+    comment-support-3:      #ffbb00,
+
+    // Multimedia palette
+    multimedia-main-1:      #333333,
+    multimedia-main-2:      #ffbb00,
+    multimedia-support-1:   #c5d4ea,
+    multimedia-support-2:   #507892,
+    multimedia-support-3:   #002c59,
+
+    // Live palette
+    live-main-1:            #b51800,
+    live-main-2:            #cc2b12,
+    live-support-1:         #ff5b3a,
+    live-support-2:         #800c0c,
+    live-support-3:         #a60947,
+
+    // Maps palette
+    maps-main-1:            #1c6326,
+    maps-main-2:            #298422,
+    maps-support-1:         #ceb41d,
+    maps-support-2:         #a9af2b,
+    maps-support-3:         #5ebfba,
+
+    // Legacy tones
+    tone-news-1:            #005689,
+    tone-news-2:            #4bc6df,
+    tone-features-1:        #951c55,
+    tone-features-2:        #f66980,
+    tone-features-3:        #b82266,
+    tone-features-4:        #7d0068,
+    tone-comment-1:         #e6711b,
+    tone-comment-2:         #ffbb00,
+    tone-comment-3:         #ffcf4c,
+    tone-media-1:           #333333,
+    tone-media-2:           #484848,
+    tone-media-3:           #ffbb00,
+    tone-live-1:            #b51800,
+    tone-live-2:            #cc2b12,
+);</code></pre>
+
+  
+</div>
+
+
+
+
+
+
+
+  
+    
+    
+  <h3 class="item__sub-heading">Description</h3>
+
+  <div class="item__description"><p>Default colour palette</p>
+</div>
+
+
+  
+    
+    
+  <h3 class="item__sub-heading">Type</h3>
+
+  <p>
+  
+    <code>Map</code>
+  
+  </p>
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+
+
+
+
+  
+    
+    
+
+  
+    
+    
+  
+    
+    
+
+  
+
+
+
+</section>
+              
+            </section>
+          
+        
+
+      </section>
+    
+
+  
+
+
+    </div>
+
+    
+    
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      
+        <div class="footer__project-info  project-info">
+          <!-- Name and URL -->
+          
+            <span class="project-info__name">SassDoc</span>
+          
+
+          <!-- Version -->
+          
+
+          <!-- License -->
+          
+        </div>
+      
+
+      
+        <span class="footer__watermark">Built with <a href="https://github.com/SassDoc/sassdoc">SassDoc</a>.</span>
+      
+    </div>
+  </footer>
+
+
+  </article>
+
+
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="assets/js/main.min.js"></script>
+
+</body>
+</html>

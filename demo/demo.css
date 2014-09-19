@@ -33,7 +33,7 @@
  */
 /**
  * Default colour palette
- * 
+ *
  * @type Map
  *
  * @group colours
@@ -96,7 +96,7 @@ a {
 }
 
 .b-neutral-4 {
-  background-color: gainsboro;
+  background-color: #dcdcdc;
 }
 
 .b-neutral-5 {
@@ -128,7 +128,7 @@ a {
 }
 
 .b-neutral-4-warm {
-  background-color: gainsboro;
+  background-color: #dcdcdc;
 }
 
 .b-neutral-5-warm {
