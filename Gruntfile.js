@@ -7,6 +7,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-sassdoc');
     grunt.loadNpmTasks('grunt-scss-lint');
 
+    grunt.task.renameTask('release', 'git-release');
+
 	grunt.initConfig({
         clean: {
             docs: [
