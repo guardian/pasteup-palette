@@ -180,11 +180,15 @@ a {
 }
 
 .b-comment-support-2 {
-  background-color: #e3e3db;
+  background-color: #efefec;
 }
 
 .b-comment-support-3 {
-  background-color: #ffbb00;
+  background-color: #ffce4b;
+}
+
+.b-comment-support-4 {
+  background-color: #e6711b;
 }
 
 .b-multimedia-main-1 {
@@ -543,6 +547,16 @@ a {
 .b-comment-support-3:before {
   visibility: hidden;
   content: "comment-support-3";
+}
+
+.b-comment-support-4 {
+  text-shadow: 0 0 3px #000000;
+  font-weight: 200;
+  color: #ffffff;
+}
+.b-comment-support-4:before {
+  visibility: hidden;
+  content: "comment-support-4";
 }
 
 .b-multimedia-main-1 {
