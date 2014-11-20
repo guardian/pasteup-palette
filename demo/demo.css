@@ -143,6 +143,10 @@ a {
   background-color: #aad801;
 }
 
+.b-news-support-6 {
+  background-color: #63717a;
+}
+
 .b-features-main-1 {
   background-color: #7d0068;
 }
@@ -447,6 +451,16 @@ a {
 .b-news-support-5:before {
   visibility: hidden;
   content: "news-support-5";
+}
+
+.b-news-support-6 {
+  text-shadow: 0 0 3px #000000;
+  font-weight: 200;
+  color: #ffffff;
+}
+.b-news-support-6:before {
+  visibility: hidden;
+  content: "news-support-6";
 }
 
 .b-features-main-1 {
