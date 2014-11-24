@@ -263,6 +263,14 @@ a {
   background-color: #72af7e;
 }
 
+.b-external-main-1 {
+  background-color: #1c6326;
+}
+
+.b-external-support-1 {
+  background-color: #a9af2b;
+}
+
 [class^=b-] {
   display: inline-block;
   width: 10em;
@@ -736,4 +744,24 @@ a {
 .b-maps-support-4:before {
   visibility: hidden;
   content: "maps-support-4";
+}
+
+.b-external-main-1 {
+  text-shadow: 0 0 3px #000000;
+  font-weight: 200;
+  color: #ffffff;
+}
+.b-external-main-1:before {
+  visibility: hidden;
+  content: "external-main-1";
+}
+
+.b-external-support-1 {
+  text-shadow: 0 0 3px #000000;
+  font-weight: 200;
+  color: #ffffff;
+}
+.b-external-support-1:before {
+  visibility: hidden;
+  content: "external-support-1";
 }
