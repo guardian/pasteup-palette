@@ -14,12 +14,14 @@ $pasteup-palette: (
     success:                #4a7801,
 
     // Neutral palette
-    neutral-1:              #333333,
-    neutral-2:              #767676,
-    neutral-3:              #bdbdbd,
+    neutral-1:              #121212,
+    neutral-2:              #999999,
+    neutral-3:              #f6f6f6,
     neutral-4:              #dcdcdc,
-    neutral-5:              #eaeaea,
-    neutral-6:              #f6f6f6,
+    neutral-5:              #ffffff,
+    neutral-6:              #767676,
+    neutral-7:              #444444,
+    neutral-8:              #ededed,
 
     // News palette
     news-main-1:            #005689,
@@ -75,4 +77,95 @@ $pasteup-palette: (
     // External content palette
     external-main-1:        #1c6326,
     external-support-1:     #a9af2b,
+
+    news-garnett-main-1:    #c70000, //used for kicker
+    news-garnett-feature:   #880105, //used for feature head
+    news-garnett-media-main-1: #ff4e36, // used for kicker on media
+    news-garnett-highlight: #ffe500,
+
+    opinion-garnett-main-1: #e05e00,
+    opinion-garnett-feature: #bd5318,
+    opinion-garnett-media-main-1: #ff7f0f,
+    opinion-garnett-background: #fef9f5,
+
+    sport-garnett-main-1: #0084c6,
+    sport-garnett-feature: #005689,
+    sport-garnett-media-main-1: #00b2ff,
+
+    culture-garnett-main-1: #a1845c,
+    culture-garnett-feature: #6b5840,
+    culture-garnett-media-main-1: #eacca0,
+
+    lifestyle-garnett-main-1: #bb3b80,
+    lifestyle-garnett-feature: #7d0068,
+    lifestyle-garnett-media-main-1: #ffabdb,
+
+    immersive-garnett-main-1: rgba(0, 0, 0, .65),
+    analysis-garnett-underline: #ffbac8,
+
+    // This is only for use of the subnav in the header
+    subnav-grey: #5c6268,
+
+    // Football
+
+    sport-bright:           #70d2e6,
+    sport-mid:              #005689,
+    sport-dark:             #003f64,
+
+    sport-home:             #70d2e6,
+    sport-away:             #003f64,
+
+    // Statuses
+
+    status-positive-garnett:   #bbce00,
+    status-neutral-garnett:    #767676,
+    status-negative-garnett:   #d61d00,
+
+
+
+    // Quiz colours
+
+    quiz-correct:           #3db540,
+    quiz-incorrect:         #c3021b,
+
+    // Social
+
+    social-email:           #767676,
+    social-facebook:        #3067a3,
+    social-twitter:         #03b3ee,
+    social-gplus:           #e15440,
+    social-whatsapp:        #59cb3f,
+    social-linkedin:        #0071a1,
+    social-pinterest:       #b9252c,
+    social-messenger:       #0084ff,
+
+
+    // Membership
+
+    membership-default:     #bb3a7f,
+
+
+    // Identity
+
+    identity-main:          #121212,
+
+    // Commercial content
+
+    paid-article:              #d9d9d9,
+    paid-article-header:       #bfbfbf,
+    paid-article-header-bg:    #b8b8b8,
+    paid-article-subheader:    #cccccc,
+    paid-article-subheader-bg: #c4c4c4,
+    paid-article-card-bg:      neutral-8,
+    paid-article-media-bg:     #bbb7b1,
+    paid-article-icon:         #767676,
+    paid-article-brand:        #69d1ca,
+    paid-article-mpu:          #cccccc,
+    paid-article-richlink:     #65a897,
+    rainbow-red:               #ed1c24, // from Guss
+
+    paid-card-kicker:          #626262,
+
+    c-top-header-background:   #00456e, // one-off colour for header bg
+
 );
